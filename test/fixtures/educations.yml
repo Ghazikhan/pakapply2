@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  division_grade: MyString
+  obtaiend_marks: 1
+  years: 2015-11-13
+  user_id: 
+  institute_id: 
+  degree_id: 
+
+two:
+  division_grade: MyString
+  obtaiend_marks: 1
+  years: 2015-11-13
+  user_id: 
+  institute_id: 
+  degree_id: 

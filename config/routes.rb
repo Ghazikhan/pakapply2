@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+  resources :work_experiences
+  resources :fields
+  resources :cities
+  resources :organizations
+  resources :jobs
+  resources :advertisements
+  resources :educations
+  resources :degrees
+  resources :institutes
 resources :sessions, only: [:new, :create, :destroy]
   get 'signup', to: 'users#new', as: 'signup'
 

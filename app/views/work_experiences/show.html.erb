@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Work type:</strong>
+  <%= @work_experience.work_type %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @work_experience.start_date %>
+</p>
+
+<p>
+  <strong>End date:</strong>
+  <%= @work_experience.end_date %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @work_experience.user %>
+</p>
+
+<p>
+  <strong>Field:</strong>
+  <%= @work_experience.field %>
+</p>
+
+<%= link_to 'Edit', edit_work_experience_path(@work_experience) %> |
+<%= link_to 'Back', work_experiences_path %>

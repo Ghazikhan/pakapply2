@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  maximum_qualification: MyString
+  advertisement_id: 
+
+two:
+  title: MyString
+  maximum_qualification: MyString
+  advertisement_id: 
