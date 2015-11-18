@@ -1,4 +1,7 @@
 class User < ActiveRecord::Base
+has_many :educations
+has_many :advertisement
+has_many :work_experiences 
   has_secure_password
   validates :first_name,
   presence: true
